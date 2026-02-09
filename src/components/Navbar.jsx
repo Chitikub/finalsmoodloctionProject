@@ -22,7 +22,7 @@ const Navbar = () => {
                 to="/contact"
                 className="hover:text-[#8362B8] transition-colors"
               >
-                ติดต่อ
+                ติดต่อสอบถาม
               </Link>
             </li>
             <li>
