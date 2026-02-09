@@ -13,7 +13,7 @@ const Layout = () => {
       </header>
 
       {/* ส่วนเนื้อหาหลักที่ยืดหยุ่นได้ */}
-      <main className="flex-grow">
+      <main className="flex-grow pt-20">
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}

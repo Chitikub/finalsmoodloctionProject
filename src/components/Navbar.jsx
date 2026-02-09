@@ -13,7 +13,7 @@ const Navbar = () => {
             to="/"
             className="text-xl font-serif font-bold text-[#2D3142] hover:scale-105 transition-transform shrink-0"
           >
-            Mood Finder
+            Mood Location Finder
           </Link>
 
           <ul className="hidden md:flex items-center gap-6 text-[15px] font-semibold text-gray-500">
@@ -22,7 +22,7 @@ const Navbar = () => {
                 to="/contact"
                 className="hover:text-[#8362B8] transition-colors"
               >
-                ติดต่อสอบถาม
+                ติดต่อ
               </Link>
             </li>
             <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 to="/guide"
                 className="hover:text-[#8362B8] transition-colors"
               >
-                คู่มือการใช้งาน
+                คู่มือ
               </Link>
             </li>
           </ul>
