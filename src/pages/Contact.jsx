@@ -21,7 +21,7 @@ const Contact = () => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="max-w-6xl mx-auto px-4 py-12"
+      className="max-w-6xl mx-auto px-4 pt-32 pb-12"
     >
       {/* Container หลักที่เป็นการ์ดสีขาวมนๆ */}
       <div className="bg-white/90 backdrop-blur-sm rounded-[3rem] shadow-xl overflow-hidden flex flex-col lg:flex-row border border-white">
