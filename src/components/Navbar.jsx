@@ -30,13 +30,12 @@ const Navbar = () => {
                 to="/guide"
                 className="hover:text-[#8362B8] transition-colors"
               >
-                คู่มือ
+                คู่มือการใช้งาน
               </Link>
             </li>
           </ul>
         </div>
 
-        {/* ฝั่งขวา: ปุ่มขนาดกะทัดรัด */}
         <div className="flex items-center gap-2">
           <Link
             to="/login"
